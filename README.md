@@ -12,12 +12,12 @@ Each of the folds contains 80 text files with English text (one review per file)
 Programs:<br/>
 Two programs are written: nblearn.py will learn a naive Bayes model from the training data and nbclassify.py will use the model to classify new data. The learning program will be invoked in the following way:
 <br/>
-> python nblearn.py /path/to/input
+python nblearn.py /path/to/input
 <br/>
 The argument is the directory of the training data; the program will learn a naive Bayes model, and write the model parameters to a file called nbmodel.txt.<br/>
 The classification program will be invoked in the following way:
 <br/>
-> python nbclassify.py /path/to/input
+python nbclassify.py /path/to/input
 <br/>
 The argument is the directory of the test data; the program will read the parameters of a naive Bayes model from the file nbmodel.txt, classify each file in the test data, and write the results to a text file called nboutput.txt in the following format:
 <br/>
